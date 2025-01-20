@@ -12,11 +12,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-[#C3A6AE]">
+    <div class="msg-container text-center mb-24 hidden">
+      <p id="msg" class="text-3xl font-bold text-purple-500">Winner</p>
+      <div class="flex justify-center">
+        <button id="btn" class="btn p-4 bg-green-400 rounded-xl">
+          New Game
+        </button>
+      </div>
+    </div>
     <h1 class="text-2xl font-bold text-center">Tic Tac Toe</h1>
     <div class="container h-[70vh]">
-      <div
-        class="game inline-grid grid-cols-3 gap-4 text-2xl font-bold ml-80 mt-10"
-      >
+      <div class="game inline-grid grid-cols-3 gap-4 text-2xl font-bold mt-10">
         <button class="box-border h-24 w-24 p-4 border-4 bg-white"></button>
         <button class="box-border h-24 w-24 p-4 border-4 bg-white"></button>
         <button class="box-border h-24 w-24 p-4 border-4 bg-white"></button>
