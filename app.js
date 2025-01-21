@@ -1,9 +1,8 @@
 let boxes = document.querySelectorAll(".box-border");
-let resetBtn = document.querySelector(".btn");
+let resetBtn = document.querySelector("#btn1");
 let newBtn = document.querySelector("#btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
-console.log(resetBtn);
 
 let turnO = true;
 
